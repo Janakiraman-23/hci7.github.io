@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End Semester Exam Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">Logo</div>
+            <h1>End Semester Exam Registration Portal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">My Registrations</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <aside>
+            <nav class="sidebar">
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Register for Exams</a></li>
+                    <li><a href="#">Exam Schedule</a></li>
+                    <li><a href="#">Notifications</a></li>
+                    <li><a href="#">Profile Settings</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <section class="welcome">
+                <h2>Welcome, [Student Name]!</h2>
+                <p>Upcoming Deadlines:</p>
+                <ul>
+                    <li>Registration closes on June 15</li>
+                    <li>Exams start on June 20</li>
+                </ul>
+            </section>
+            <section class="registration-form">
+                <h2>Register for Exams</h2>
+                <div class="search-bar">
+                    <label for="search">Search Courses:</label>
+                    <input type="text" id="search" name="search" placeholder="Search by name or code">
+                </div>
+                <div class="course-selection">
+                    <label for="courses">Select Courses:</label>
+                    <select id="courses" name="courses" multiple>
+                        <option value="course1">Course 1</option>
+                        <option value="course2">Course 2</option>
+                        <option value="course3">Course 3</option>
+                        <option value="course4">Course 4</option>
+                    </select>
+                </div>
+                <div class="selected-courses">
+                    <h3>Selected Courses Summary:</h3>
+                    <ul id="course-summary">
+                        <!-- Selected courses will appear here -->
+                    </ul>
+                </div>
+                <div class="terms">
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">I agree to the terms and conditions</label>
+                </div>
+                <button type="submit">Submit</button>
+            </section>
+        </main>
+    </div>
+    <div class="notifications">
+        <!-- Pop-up Alerts for Notifications -->
+    </div>
+    <footer>
+        <p>&copy; 2024 Institution Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
